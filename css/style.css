@@ -1,0 +1,454 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Merienda&family=Niconne&display=swap');
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Baloo Bhai 2', cursive;
+}
+.first
+{	
+	min-height:60vh;
+	background:url('../images/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0;
+
+}
+.navbar-brand
+{
+	font-weight: 700;
+	color:#aee6e6!important;
+	font-size: 30px;
+	text-shadow: 0 0 5px rgba(0,0,0,0.4);
+	letter-spacing: 2px;
+}
+.content-head
+{
+	color: white;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-60%,-70%);
+	width: 450px;
+}
+.first-letter
+{
+	font-size: 45px;
+	font-weight: 700;
+}
+.content-head
+span:nth-child(1)
+{
+	font-size: 50px;
+	color: #aee6e6;
+	text-shadow: 0 0 15px rgba(255,255,255,0.4);
+}
+.work
+{
+	font-size: 35px;
+	color: #eff8ff;
+}
+.btn
+{
+	background: #eff8ff;
+	padding: 5px 25px;
+	box-shadow: 0 0 5px white;
+	transition: 0.5s;
+}
+.btn:hover
+{
+	color: #111;
+	background:  #aee6e6;
+}
+ .abt{
+	position: relative;
+}
+ .abt:after
+{
+position: absolute;
+content: "";
+width: 50px;
+left: 48%;
+bottom: -10px;
+background: #fff;
+height: 3px;
+align-items:center;
+border-radius: 15px
+}
+
+.img-bx
+{
+	min-width: 350px;
+	position: relative;
+	height: 400px;
+
+}
+.img-bx img
+{
+	position: absolute;
+	width: 100%;
+	left: 10px;
+	top: 0;
+	height: 100%;
+	object-fit: cover;
+}
+
+.skills .skillcard:hover
+{
+	background: #fff;
+	color: #000;
+	transform: translateY(-5px);
+}
+
+.skills .skillcard:hover .img
+{
+	background: rgba(0,0,0,1);
+}
+.skillcard.first
+{
+	box-shadow: 0 0 10px #9c3d54;
+
+}
+
+.skillcard.second
+{
+	box-shadow: 0 0 10px #e2703a;
+}
+.skillcard.third
+{
+	box-shadow: 0 0 10px #1597bb;
+	
+}
+.skillcard.fourth
+{
+	box-shadow: 0 0 10px #ffb037;
+	
+}
+.skillcard.fifth
+{
+	box-shadow: 0 0 10px #150e56;
+	
+}
+.skillcard.sixth
+{
+	box-shadow: 0 0 10px #301b3f;
+	
+}
+.skillcard.seventh
+{
+	box-shadow: 0 0 10px #046582;
+	
+}
+
+
+.skillcard .img
+{
+	width: 120px;
+	height: 120px;
+	background: #fff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	transition: 0.5s ease-in-out;
+}
+
+.skillcard .img img
+{
+	max-width: 75px;
+	min-height: 75px;
+
+
+}
+.img-bx:before
+{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	left: -20px;
+	top: 30px;
+	right: 0;
+	bottom: 0;
+	border:8px solid black;
+
+}
+.about .hire
+{
+	padding: 2px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #111;
+	background:  #aee6e6;
+	transition: 0.4s;
+}
+
+
+.about .hire:hover
+{
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	color: #045762;
+}
+.icons 
+{
+	/*display: block;*/
+
+
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.icons a,.contact .sci
+{
+	margin: 15px;
+	background:   #045762;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+		border-radius: 50%;
+		color: white;
+		text-decoration: none;
+		font-size: 25px;
+		font-weight: 500;
+		transition: 0.5s;
+		/*flex-direction: row;*/
+
+}
+.icons a:hover,.contact .sci:hover
+{
+transform: translateY(-15px);
+background: whitesmoke;
+color:  #045762;
+box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+.card
+{
+	/*width: 300px;*/
+	height: 350px;
+	background: #0f0f0f;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	flex-direction: column;
+	padding: 10px;
+	transition: all 0.5s ease-in-out;
+	border:none;
+}
+.card img
+{
+	width: 70px;
+	height: 70px;
+	background: white;
+	padding: 5px;
+	border-radius:50%;
+	box-shadow: 0 0 10px rgba(255,255,255,0.5);
+	object-fit: cover;
+	background-position: center;
+
+}
+.card h1
+{
+	color: white;
+	font-weight: 500;
+	font-size: 25px;
+font-family: 'Merienda', cursive;
+	letter-spacing: 1px;
+	/*text-transform: uppercase;*/
+	pointer-events: none;
+}
+.card p
+{
+	color: whitesmoke;
+	text-transform: capitalize;
+	pointer-events: none;
+
+}
+
+.card:hover
+{
+	background: white;
+	/*color: black;*/
+	box-shadow: 0 0  20px rgba(0,0,0,0.5);
+	transform: translateY(-25px);
+}
+
+.card:hover h1
+{
+	color: #0f0f0f!important ;
+}
+
+
+.card:hover  p
+{
+	color:  #0f0f0f!important;
+}
+.card:hover img
+{
+	filter: invert(1);
+	box-shadow: 0 0 20px green;
+	/*background-blend-mode: difference;*/
+
+}
+
+
+
+
+
+
+
+
+
+
+.cards
+{
+	transition: 0.5s all ease-in-out;
+	/*padding: 5px;*/
+	margin: 10px;
+	height: 400px;
+}
+
+.cards img
+{
+height: 350px;
+object-fit: cover;
+}
+
+
+.cards h2
+{
+	text-transform: capitalize;
+	font-weight: 500;
+}
+
+.cards:hover
+{
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	transform: translateY(-15px);
+	transition: all 0.5s ease;
+}
+
+.cards span
+{
+	color: #045762;
+	font-weight: 600;
+}
+
+
+
+.visit .fa
+{
+	padding: 15px;
+	background: #045762;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	margin: 5px;
+	font-size: 20px;
+	
+}
+
+.contact .fa-envelope
+{
+	margin-top: 35px!important;
+
+	font-size: 20px;
+	background:grey;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 50%;
+	background: #045762;
+}
+.contact a
+{
+	color: black;
+	text-decoration: underline;
+}
+
+.contact p
+{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+
+
+iframe
+{
+	width: 100%;
+	height: 300px;
+}
+
+
+
+
+
+
+
+
+/*media///////////////////*/
+
+
+@media (max-width: 760px)
+{
+	.content-head
+{
+	color: white;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-40%,-80%);
+	width: 300px;
+}
+.first-letter
+{
+	font-size: 25px;
+	font-weight: 700;
+}
+.content-head
+span:nth-child(1)
+{
+	font-size: 35px;
+	color: #aee6e6;
+	text-shadow: 0 0 15px rgba(255,255,255,0.4);
+}
+.work
+{
+	font-size: 25px;
+	color: #eff8ff;
+}
+.img-bx:before
+{
+	display: none;
+
+}
+.img-bx img
+{
+	left: 0;
+}
+.contact p
+{
+	font-size: 15px;
+	font-weight: 400;
+}
+
+}
